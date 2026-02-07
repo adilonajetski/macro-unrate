@@ -1,6 +1,6 @@
 {
   "source": "FRED",
-  "pulled_at_utc": "2026-01-28T19:32:08",
+  "pulled_at_utc": "2026-02-07T20:45:32",
   "series": {
     "UNRATE": {
       "name": "unrate",
@@ -16,9 +16,9 @@
     },
     "FEDFUNDS": {
       "name": "fedfunds",
-      "rows": 858,
+      "rows": 859,
       "min_date": "1954-07-01",
-      "max_date": "2025-12-01"
+      "max_date": "2026-01-01"
     },
     "INDPRO": {
       "name": "indpro",
@@ -28,9 +28,9 @@
     },
     "T10Y2Y": {
       "name": "t10y2y",
-      "rows": 12956,
+      "rows": 12964,
       "min_date": "1976-06-01",
-      "max_date": "2026-01-27"
+      "max_date": "2026-02-06"
     }
   }
 }

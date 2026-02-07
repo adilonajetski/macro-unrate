@@ -1,6 +1,6 @@
 import pandas as pd
 
-from src.utils.config import INTERMEDIATE_DIR, PROCESSED_DIR
+from src.utils.config import PROCESSED_DIR
 
 TARGET = "unrate"
 
@@ -14,7 +14,7 @@ def build_lagged_data(lags=(1, 3, 6)):
         Number of months to lag predictors (e.g. 1, 3, 6).
     """
     df = pd.read_csv(
-        INTERMEDIATE_DIR / "macro_monthly_merged.csv",
+        PROCESSED_DIR / "macro_monthly_clean.csv",
         parse_dates=["date"],
     ).sort_values("date")
 
